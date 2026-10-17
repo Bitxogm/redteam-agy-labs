@@ -1,0 +1,31 @@
+# Ignorar solo binarios pesados, imágenes de máquinas virtuales, diccionarios y capturas de tráfico grandes
+# (Se permiten todos los writeups, notas, scripts, credenciales de lab y flags para ayudar a la comunidad)
+
+*.ova
+*.vmdk
+*.vdi
+*.iso
+*.tar
+*.tar.gz
+*.tgz
+*.zip
+*.7z
+*.pcap
+*.pcapng
+*.cap
+
+# Binarios comunes de post-explotación que pesan mucho y no hace falta subir a Git
+pspy32
+pspy64
+linpeas.sh
+winPEAS*
+chisel
+chisel_*
+rockyou.txt*
+
+# Archivos temporales del sistema / editor
+.DS_Store
+*~
+*.swp
+__pycache__/
+.venv/
