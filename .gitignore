@@ -29,3 +29,5 @@ rockyou.txt*
 *.swp
 __pycache__/
 .venv/
+.mcp/.venv/
+/home/ladybaba2000/redteam/.mcp/.venv/
